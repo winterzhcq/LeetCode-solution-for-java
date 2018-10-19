@@ -1,4 +1,4 @@
-class Solution {
+锘縞lass Solution {
     public ListNode reverseList(ListNode head) {
         if (head == null || head.next == null)
             return head;
@@ -6,7 +6,7 @@ class Solution {
         dummHead.next = head;
         ListNode preNode = dummHead;
         ListNode cur = preNode.next;
-	//手动画图理解
+	//鎵嬪姩鐢诲浘鐞嗚В
         while (head.next != null){ 
             ListNode temp = cur.next;
             cur.next = temp.next;
